@@ -123,7 +123,6 @@ nav {
 
     /* Improving my picture */
     transition: scale(1.5);
-    padding-top: 8px;
 }
 
 .about-me__info--title {
@@ -134,10 +133,18 @@ nav {
     margin-bottom: 28px;
 }
 
+.about-me__link {
+    font-size: 20px;
+    color: #242424;
+    text-decoration: none;
+    padding: 0 16px;
+}
+
 .about-me__img--container {
     flex: 1;
     display: flex;
     align-items: center;
+    padding: 24px 0;
 }
 .about-me__img {
     width: 100%;
